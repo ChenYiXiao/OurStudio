@@ -8,7 +8,36 @@
     <meta name="description" content="梦想天空工作室由浙江工商大学软件工程系大三学生于13年6月创立，主要业务为ThinkSNS相关产品开发。产品开发规范，报价合理，赢得了客户一致好评。"/>
     <link href="css/templatemo_style.css" rel="stylesheet" type="text/css"/>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="js/swfobject/swfobject.js"></script>
 
+    <script type="text/javascript">
+        var flashvars = {};
+        flashvars.xml_file = "bar_slider_list.xml";
+        var params = {};
+        params.wmode = "transparent";
+        var attributes = {};
+        attributes.id = "slider";
+        swfobject.embedSWF("bar_slider_click.swf", "flashmo_slider", "560", "310", "9.0.0", false, flashvars, params, attributes);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css"/>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/ddsmoothmenu.js">
+    </script>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+        ddsmoothmenu.init({
+            mainmenuid: "templatemo_menu", //menu DIV id
+            orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+            classname: 'ddsmoothmenu', //class added to menu's outer DIV
+            //customtheme: ["#1c5a80", "#18374a"],
+            contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+        })
+
+    </script>
 </head>
 <body id="subpage">
 <!--顶部导航栏起点-->
